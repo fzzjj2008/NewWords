@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent"    
+    android:scrollbars="vertical"    
+    android:fadingEdge="vertical"
+    android:background="@drawable/bg_light" >
+    
+	<RelativeLayout
+	    android:id="@+id/test_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:scrollbars="vertical"
+	    android:focusable="true"
+	    android:focusableInTouchMode="true" >
+	    
+	   	<LinearLayout
+	   	    android:id="@+id/test_way_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:padding="10dp"
+		    android:background="@drawable/rect_rounded_white"
+		    android:orientation="vertical" >
+		    <TextView
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:textSize="17sp" 
+		        android:textColor="@color/color_dark_gray"
+		        android:textStyle="bold"
+		        android:text="@string/test_way" />
+	        <RadioGroup
+	            android:id="@+id/test_way_radio"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp"
+	            android:orientation="vertical" >          
+	
+	            <RadioButton
+	                android:id="@+id/test_way_choice_e2c"
+	                android:layout_width="wrap_content"
+	                android:layout_height="32dp"
+	                android:background="@null"
+	                android:button="@null"
+	                android:drawableLeft="@android:drawable/btn_radio"
+	                android:drawablePadding="5dp"
+	                android:checked="true"
+	                android:text="@string/test_way_choice_e2c"
+	                android:textColor="@color/color_dark_gray" />
+	
+	            <RadioButton 
+	                android:id="@+id/test_way_choice_c2e"
+	                android:layout_width="wrap_content"
+	                android:layout_height="32dp"
+	                android:button="@null"
+	                android:background="@null"
+	                android:drawableLeft="@android:drawable/btn_radio"
+	                android:drawablePadding="5dp"
+	                android:checked="false"
+	                android:textColor="@color/color_dark_gray"
+	                android:text="@string/test_way_choice_c2e" />
+	        </RadioGroup>
+	    </LinearLayout>
+	    
+	   	<LinearLayout
+	   	    android:id="@+id/test_order_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/test_way_layout"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:padding="10dp"
+		    android:background="@drawable/rect_rounded_white"
+		    android:orientation="vertical" >
+		    <TextView
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:textSize="17sp" 
+		        android:textColor="@color/color_dark_gray"
+		        android:textStyle="bold"
+		        android:text="@string/test_order" />
+	        <RadioGroup
+	            android:id="@+id/test_order_radio"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp"
+	            android:orientation="vertical" >          
+	
+	            <RadioButton
+	                android:id="@+id/test_order_alphabet"
+	                android:layout_width="wrap_content"
+	                android:layout_height="32dp"
+	                android:background="@null"
+	                android:button="@null"
+	                android:drawableLeft="@android:drawable/btn_radio"
+	                android:drawablePadding="5dp"
+	                android:checked="true"
+	                android:text="@string/test_order_alphabet"
+	                android:textColor="@color/color_dark_gray" />
+	
+	            <RadioButton 
+	                android:id="@+id/test_order_random"
+	                android:layout_width="wrap_content"
+	                android:layout_height="32dp"
+	                android:button="@null"
+	                android:background="@null"
+	                android:drawableLeft="@android:drawable/btn_radio"
+	                android:drawablePadding="5dp"
+	                android:checked="false"
+	                android:textColor="@color/color_dark_gray"
+	                android:text="@string/test_order_random" />
+	        </RadioGroup>
+	    </LinearLayout>
+	    
+	   	<LinearLayout
+	   	    android:id="@+id/test_number_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/test_order_layout"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:padding="10dp"
+		    android:background="@drawable/rect_rounded_white"
+		    android:orientation="vertical" >
+		    <TextView
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:textSize="17sp" 
+		        android:textColor="@color/color_dark_gray"
+		        android:textStyle="bold"
+		        android:text="@string/test_number" />
+	        <RadioGroup
+	            android:id="@+id/test_number_radio"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp"
+	            android:orientation="vertical" >
+	            <RadioButton
+	                android:id="@+id/test_number_all"
+	                android:layout_width="wrap_content"
+	                android:layout_height="32dp"
+	                android:background="@null"
+	                android:button="@null"
+	                android:drawableLeft="@android:drawable/btn_radio"
+	                android:drawablePadding="5dp"
+	                android:checked="true"
+	                android:text="@string/test_number_all"
+	                android:textColor="@color/color_dark_gray" />
+	            <RadioButton 
+	                android:id="@+id/test_number_given"
+	                android:layout_width="wrap_content"
+	                android:layout_height="32dp"
+	                android:button="@null"
+	                android:background="@null"
+	                android:drawableLeft="@android:drawable/btn_radio"
+	                android:drawablePadding="5dp"
+	                android:checked="false"
+	                android:textColor="@color/color_dark_gray"
+	                android:text="@string/test_number_given" />
+	        </RadioGroup>
+	        <EditText 
+	            android:id="@+id/test_number_edit"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="40dp"
+	            android:textColor="@color/color_dark_gray"
+	            android:hint="@string/test_number_hint"
+	            android:inputType="number"
+	            android:maxLength="3" />
+	    </LinearLayout>
+	   	
+	    <Button
+	        android:id="@+id/btn_test_start"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/test_number_layout"
+	        android:text="@string/test_start"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp" />
+	
+	</RelativeLayout>
+    
+</ScrollView>

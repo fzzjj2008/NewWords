@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">生词本</string>
+    <string name="app_settings">设置</string>
+    
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_about_title">关于生词本</string>
+    <string name="dialog_about_msg">作者：fzzjj2008\n时间：2015.8</string>
+    <string name="dialog_exit_title">退出</string>
+    <string name="dialog_exit_msg">确认退出吗？</string>
+    <string name="dialog_reset_title">恢复默认</string>
+    <string name="dialog_reset_msg">是否恢复默认？</string>
+    <string name="dialog_jump_title">请输入要跳至的页码</string>
+    <string name="dialog_jump_err">无法跳至指定页码</string>
+    
+    <string name="btn_newwords">进入生词本</string>
+    <string name="btn_settings">设置</string>
+    <string name="btn_newwords_view">浏览生词</string>
+    <string name="btn_newwords_input">导入生词本</string>
+    <string name="btn_newwords_test">测试</string>
+    
+    <string name="test_way">测试方式</string>
+    <string name="test_way_choice_e2c">英汉选择题</string>
+    <string name="test_way_choice_c2e">汉英选择题</string>
+    <string name="test_order">测试顺序</string>
+    <string name="test_order_alphabet">字典顺序</string>
+    <string name="test_order_random">随机顺序</string>
+    <string name="test_number">测试数目</string>
+    <string name="test_number_all">全部测试</string>
+    <string name="test_number_given">给定数目</string>
+    <string name="test_number_hint">给定数目至少为5</string>
+    <string name="test_number_err_empty">给定数目为空</string>
+    <string name="test_number_err_too_few">给定数目至少为5</string>
+    <string name="test_number_err_too_many">给定数目超过生词本中生词数目</string>
+    <string name="test_start">开始测试</string>
+    
+    <string name="test_choice_btn_show_answer">显示答案</string>
+    <string name="test_choice_btn_end_test">结束测试</string>
+    
+    <string name="settings_system">系统设置</string>
+    <string name="settings_autosave">自动保存进度</string>
+    <string name="settings_tts">TTS设置</string>
+    <string name="settings_tts_none">不发音</string>
+    <string name="settings_tts_us">美式发音</string>
+    <string name="settings_tts_uk">英式发音</string>
+    <string name="settings_filepath">当前文件路径</string>
+    <string name="settings_filepath_nofile">未导入文件</string>
+    <string name="settings_reset">恢复默认</string>
+    <string name="settings_about">关于生词本</string>
+    
+    <string name="file_success">生词本导入成功，生词本路径：</string>
+    <string name="file_err_empty_path">当前路径为空，请导入生词本</string>
+    <string name="file_err_not_exist">文件不存在</string>
+    <string name="file_err_read_file">读取文件错误</string>
+    <string name="file_err_empty_file">文件为空</string>
+    <string name="file_back_exit">退出浏览器</string>
+    <string name="file_back_higher_level">返回上一级</string>
+    <string name="file_current_path">当前目录：</string>
+    
+    <string name="tts_engine_err">加载TTS引擎失败</string>
+    <string name="tts_not_support">不支持该语言的发音</string>
+    
+    <string name="default_autosave">true</string>
+    <string name="default_filepath"></string>
+    <string name="default_currentword">0</string>
+    <string name="default_tts">1</string>
+    <string name="default_testway">0</string>
+    <string name="default_testorder">0</string>
+    <string name="default_testnumber">-1</string>
+    
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dark" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+    
+		    <TextView
+		        android:id="@+id/test_choice_question"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:textSize="25sp"
+		        android:textColor="@color/color_light_gray"
+		        android:textStyle="bold" />
+		    
+		    <TextView
+		        android:id="@+id/test_choice_a"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:drawableLeft="@drawable/test_choice_a"
+		        android:drawablePadding="10dp"
+		        android:gravity="center_vertical"
+		        android:textSize="20sp"
+		        android:textColor="@color/color_light_gray"
+		        android:clickable="true"
+		        />
+		    
+		    <TextView
+		        android:id="@+id/test_choice_b"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:drawableLeft="@drawable/test_choice_b"
+		        android:drawablePadding="10dp"
+		        android:gravity="center_vertical"
+		        android:textSize="20sp"
+		        android:textColor="@color/color_light_gray"
+		        android:clickable="true"
+		        />
+		    
+		    <TextView
+		        android:id="@+id/test_choice_c"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:drawableLeft="@drawable/test_choice_c"
+		        android:drawablePadding="10dp"
+		        android:gravity="center_vertical"
+		        android:textSize="20sp"
+		        android:textColor="@color/color_light_gray"
+		        android:clickable="true"
+		        />
+		
+		    <TextView
+		        android:id="@+id/test_choice_d"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:drawableLeft="@drawable/test_choice_d"
+		        android:drawablePadding="10dp"
+		        android:gravity="center_vertical"
+		        android:textSize="20sp"
+		        android:textColor="@color/color_light_gray"
+		        android:clickable="true"
+		        />
+		    
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:layout_marginBottom="20dp"
+		        android:orientation="horizontal" >
+		        
+			    <Button
+			        android:id="@+id/test_choice_btn_show_answer"
+			        android:layout_width="match_parent"
+			        android:layout_height="40dp"
+			        android:layout_weight="1"
+			        android:layout_marginRight="5dp"
+			        android:background="@drawable/button_dark"
+			        android:text="@string/test_choice_btn_show_answer"
+			        android:textSize="20sp"
+		            android:textColor="@color/color_light_gray"
+			        style="?android:attr/borderlessButtonStyle"
+			        />
+			    
+			    <Button
+			        android:id="@+id/test_choice_btn_end_test"
+			        android:layout_width="match_parent"
+			        android:layout_height="40dp"
+			        android:layout_weight="1"
+			        android:layout_marginLeft="5dp"
+			        android:background="@drawable/button_dark"
+			        android:text="@string/test_choice_btn_end_test"
+			        android:textSize="20sp"
+		            android:textColor="@color/color_light_gray"
+			        style="?android:attr/borderlessButtonStyle"
+			        />
+		    </LinearLayout>
+		
+		</LinearLayout>
+	</ScrollView>
+        
+    <TextView
+        android:id="@+id/test_choice_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+	    android:textColor="@color/color_light_gray"
+	    android:clickable="true" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="@string/settings_system" >
+        <SwitchPreference
+            android:key="pref_autosave"
+            android:title="@string/settings_autosave"
+            android:defaultValue="@string/default_autosave"
+            />
+        <ListPreference
+            android:key="pref_tts"
+            android:title="@string/settings_tts"
+            android:entries="@array/pref_tts"
+            android:entryValues="@array/pref_tts_value"
+            android:dialogTitle="@string/settings_tts"
+            android:defaultValue="@string/default_tts"
+            />
+        <Preference
+            android:key="pref_filepath"
+            android:title="@string/settings_filepath"
+            />
+        <Preference
+            android:key="pref_reset"
+            android:title="@string/settings_reset"
+            />
+        <Preference 
+            android:key="pref_about"
+            android:title="@string/settings_about"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
